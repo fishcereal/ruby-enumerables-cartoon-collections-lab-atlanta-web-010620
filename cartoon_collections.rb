@@ -9,6 +9,8 @@ def summon_captain_planet(array)
     item.capitalize
     item += "!"
   }
+  p 'array is '
+  pp array 
   return array 
 end
 
