@@ -10,7 +10,9 @@ end
   end
 
 def long_planeteer_calls(array)
-  
+  # p (1..10).find_all {|n| n % 5 == 0}
+  new_array = array.find_all{|n| n.length >=4}
+  return new_array
   
 end
 
