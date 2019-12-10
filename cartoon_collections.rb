@@ -1,7 +1,9 @@
 def roll_call_dwarves(array)
   hash = {} 
   array.each_with_index{|item,index|
-  
+  hash[item] = index 
+  } 
+  pp hash 
   
   
   
